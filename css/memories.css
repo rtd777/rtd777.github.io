@@ -11,12 +11,25 @@
 	height: auto;
 	max-width: 100%; 
 }*/
+@media screen and (min-aspect-ratio: 10/9){
+	.bgcolor {
+		background: #ee9ca7;
+		background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
+		background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
+		background: url('../img/07.jpg');
+		background-size: 100%;
+		opacity: 0.9;
+	}
+	}
+@media screen and (max-aspect-ratio: 3/4){
 .bgcolor {
 	background: #ee9ca7;
     background: -webkit-linear-gradient(top left, #ee9ca7 0%, #ee9ca7 100%);
     background: linear-gradient(to bottom right, #ee9ca7 0%, #ee9ca7 100%);
-	background: url('../img/02.jpg');
+	background: url('../img/22.jpg');
+	background-size: 100%;
     opacity: 0.9;
+}
 }
 .bg-bubbles {
   position: absolute;
@@ -136,7 +149,7 @@
 	.ly-box01 {
 		width:50px;
 		height:50px;
-		background-color:#FFF;
+		background-color:rgb(132, 33, 244);
 		border-radius: 25px;
 		position: absolute;
 		left: 48%;
@@ -147,13 +160,12 @@
 		animation:box_to_point 18.5s 0s,bounce 2.5s 18.5s;
 	}
 }
-
 /*移动端*/
 @media screen and (max-aspect-ratio: 3/4){
 	.ly-box01 {
 		width:50px;
 		height:50px;
-		background-color:#FFF;
+		background-color:rgb(132, 33, 244);
 		border-radius: 25px;
 		position: absolute;
 		left: 48%;

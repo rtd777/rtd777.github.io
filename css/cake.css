@@ -318,11 +318,11 @@ html, body {
 .happy {
     position: absolute;
     opacity:0;
-    width: 300px;
+    width: 340px;
     height: 137px;
     overflow: hidden;
     left: 50%;
-    margin-left: -155px;
+    margin-left: -160px;
     top: 30%;
 
 
