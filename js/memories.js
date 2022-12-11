@@ -5,3 +5,4 @@ $(function(){
         'navigationColor':['#fff'],
     });
 });
+//loadAudioFile('../music/1.mp3');
